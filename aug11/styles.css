@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    background-color:lightblue;
+    text-align: center;
+    justify-content: space-around;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.sidebar > div {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ccc;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar > div:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebar > div:last-child button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background-color:lightblue;
+    text-align: center;
+    justify-content: space-around;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    
+}
