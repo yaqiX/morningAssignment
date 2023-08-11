@@ -16,15 +16,15 @@ nav {
     justify-content: center;
     align-items: center;
     width: 200px;
-    background-color: lightgreen;
+    background-color:lightblue;
     padding: 20px;
 }
 
 .sidebar > div {
     margin: 10px 0;
     padding: 10px;
-    background-color: #ccc;
     text-align: center;
+    background-color: aliceblue;
     width: 100%;
 }
 
@@ -37,8 +37,7 @@ nav {
 
 .sidebar > div:last-child button {
     padding: 5px;
-    color: white;
-    border: none;
+    color: blue;
 }
 
 footer {
